@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEDA3E781CF32D73002A3ACA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDA3E771CF32D73002A3ACA /* AppDelegate.swift */; };
+		CEDA3E7A1CF32D73002A3ACA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDA3E791CF32D73002A3ACA /* ViewController.swift */; };
+		CEDA3E7D1CF32D73002A3ACA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEDA3E7B1CF32D73002A3ACA /* Main.storyboard */; };
+		CEDA3E7F1CF32D74002A3ACA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEDA3E7E1CF32D74002A3ACA /* Assets.xcassets */; };
+		CEDA3E821CF32D74002A3ACA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEDA3E801CF32D74002A3ACA /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CEDA3E741CF32D73002A3ACA /* Download Web Content.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Download Web Content.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEDA3E771CF32D73002A3ACA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEDA3E791CF32D73002A3ACA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CEDA3E7C1CF32D73002A3ACA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEDA3E7E1CF32D74002A3ACA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEDA3E811CF32D74002A3ACA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEDA3E831CF32D74002A3ACA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEDA3E711CF32D73002A3ACA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEDA3E6B1CF32D73002A3ACA = {
+			isa = PBXGroup;
+			children = (
+				CEDA3E761CF32D73002A3ACA /* Download Web Content */,
+				CEDA3E751CF32D73002A3ACA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEDA3E751CF32D73002A3ACA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEDA3E741CF32D73002A3ACA /* Download Web Content.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEDA3E761CF32D73002A3ACA /* Download Web Content */ = {
+			isa = PBXGroup;
+			children = (
+				CEDA3E771CF32D73002A3ACA /* AppDelegate.swift */,
+				CEDA3E791CF32D73002A3ACA /* ViewController.swift */,
+				CEDA3E7B1CF32D73002A3ACA /* Main.storyboard */,
+				CEDA3E7E1CF32D74002A3ACA /* Assets.xcassets */,
+				CEDA3E801CF32D74002A3ACA /* LaunchScreen.storyboard */,
+				CEDA3E831CF32D74002A3ACA /* Info.plist */,
+			);
+			path = "Download Web Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEDA3E731CF32D73002A3ACA /* Download Web Content */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEDA3E861CF32D74002A3ACA /* Build configuration list for PBXNativeTarget "Download Web Content" */;
+			buildPhases = (
+				CEDA3E701CF32D73002A3ACA /* Sources */,
+				CEDA3E711CF32D73002A3ACA /* Frameworks */,
+				CEDA3E721CF32D73002A3ACA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Download Web Content";
+			productName = "Download Web Content";
+			productReference = CEDA3E741CF32D73002A3ACA /* Download Web Content.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEDA3E6C1CF32D73002A3ACA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = epam;
+				TargetAttributes = {
+					CEDA3E731CF32D73002A3ACA = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = CEDA3E6F1CF32D73002A3ACA /* Build configuration list for PBXProject "Download Web Content" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEDA3E6B1CF32D73002A3ACA;
+			productRefGroup = CEDA3E751CF32D73002A3ACA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEDA3E731CF32D73002A3ACA /* Download Web Content */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEDA3E721CF32D73002A3ACA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDA3E821CF32D74002A3ACA /* LaunchScreen.storyboard in Resources */,
+				CEDA3E7F1CF32D74002A3ACA /* Assets.xcassets in Resources */,
+				CEDA3E7D1CF32D73002A3ACA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEDA3E701CF32D73002A3ACA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDA3E7A1CF32D73002A3ACA /* ViewController.swift in Sources */,
+				CEDA3E781CF32D73002A3ACA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CEDA3E7B1CF32D73002A3ACA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEDA3E7C1CF32D73002A3ACA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEDA3E801CF32D74002A3ACA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEDA3E811CF32D74002A3ACA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEDA3E841CF32D74002A3ACA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEDA3E851CF32D74002A3ACA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEDA3E871CF32D74002A3ACA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Download Web Content/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.epam.Download-Web-Content";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CEDA3E881CF32D74002A3ACA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Download Web Content/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.epam.Download-Web-Content";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEDA3E6F1CF32D73002A3ACA /* Build configuration list for PBXProject "Download Web Content" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEDA3E841CF32D74002A3ACA /* Debug */,
+				CEDA3E851CF32D74002A3ACA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEDA3E861CF32D74002A3ACA /* Build configuration list for PBXNativeTarget "Download Web Content" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEDA3E871CF32D74002A3ACA /* Debug */,
+				CEDA3E881CF32D74002A3ACA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEDA3E6C1CF32D73002A3ACA /* Project object */;
+}
