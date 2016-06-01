@@ -12,6 +12,11 @@
 		A4842E841CFF82EB00F75B1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4842E821CFF82EB00F75B1C /* Main.storyboard */; };
 		A4842E861CFF82EB00F75B1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4842E851CFF82EB00F75B1C /* Assets.xcassets */; };
 		A4842E891CFF82EB00F75B1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4842E871CFF82EB00F75B1C /* LaunchScreen.storyboard */; };
+		A4842E961CFF8BD000F75B1C /* cow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A4842E911CFF8BD000F75B1C /* cow.mp3 */; };
+		A4842E971CFF8BD000F75B1C /* cat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A4842E921CFF8BD000F75B1C /* cat.mp3 */; };
+		A4842E981CFF8BD000F75B1C /* goat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A4842E931CFF8BD000F75B1C /* goat.mp3 */; };
+		A4842E991CFF8BD000F75B1C /* dog.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A4842E941CFF8BD000F75B1C /* dog.mp3 */; };
+		A4842E9A1CFF8BD000F75B1C /* bird.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A4842E951CFF8BD000F75B1C /* bird.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		A4842E851CFF82EB00F75B1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A4842E881CFF82EB00F75B1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A4842E8A1CFF82EB00F75B1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4842E911CFF8BD000F75B1C /* cow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cow.mp3; sourceTree = "<group>"; };
+		A4842E921CFF8BD000F75B1C /* cat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cat.mp3; sourceTree = "<group>"; };
+		A4842E931CFF8BD000F75B1C /* goat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = goat.mp3; sourceTree = "<group>"; };
+		A4842E941CFF8BD000F75B1C /* dog.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dog.mp3; sourceTree = "<group>"; };
+		A4842E951CFF8BD000F75B1C /* bird.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bird.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +66,25 @@
 			children = (
 				A4842E7E1CFF82EB00F75B1C /* AppDelegate.swift */,
 				A4842E801CFF82EB00F75B1C /* ViewController.swift */,
+				A4842E901CFF8BAF00F75B1C /* Sounds */,
 				A4842E821CFF82EB00F75B1C /* Main.storyboard */,
 				A4842E851CFF82EB00F75B1C /* Assets.xcassets */,
 				A4842E871CFF82EB00F75B1C /* LaunchScreen.storyboard */,
 				A4842E8A1CFF82EB00F75B1C /* Info.plist */,
 			);
 			path = "Swipes and Shakes";
+			sourceTree = "<group>";
+		};
+		A4842E901CFF8BAF00F75B1C /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				A4842E911CFF8BD000F75B1C /* cow.mp3 */,
+				A4842E921CFF8BD000F75B1C /* cat.mp3 */,
+				A4842E931CFF8BD000F75B1C /* goat.mp3 */,
+				A4842E941CFF8BD000F75B1C /* dog.mp3 */,
+				A4842E951CFF8BD000F75B1C /* bird.mp3 */,
+			);
+			name = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,8 +147,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4842E891CFF82EB00F75B1C /* LaunchScreen.storyboard in Resources */,
+				A4842E961CFF8BD000F75B1C /* cow.mp3 in Resources */,
+				A4842E9A1CFF8BD000F75B1C /* bird.mp3 in Resources */,
 				A4842E861CFF82EB00F75B1C /* Assets.xcassets in Resources */,
+				A4842E991CFF8BD000F75B1C /* dog.mp3 in Resources */,
 				A4842E841CFF82EB00F75B1C /* Main.storyboard in Resources */,
+				A4842E981CFF8BD000F75B1C /* goat.mp3 in Resources */,
+				A4842E971CFF8BD000F75B1C /* cat.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
