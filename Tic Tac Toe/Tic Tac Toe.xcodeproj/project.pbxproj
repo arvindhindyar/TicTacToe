@@ -7,17 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A4D043641D00A9CB00DF072B /* cross.png in Resources */ = {isa = PBXBuildFile; fileRef = A4D043621D00A9CB00DF072B /* cross.png */; };
+		A4D043651D00A9CB00DF072B /* nought.png in Resources */ = {isa = PBXBuildFile; fileRef = A4D043631D00A9CB00DF072B /* nought.png */; };
 		CE974EBF1CF44E3500F6F35B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE974EBE1CF44E3500F6F35B /* AppDelegate.swift */; };
 		CE974EC11CF44E3500F6F35B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE974EC01CF44E3500F6F35B /* ViewController.swift */; };
 		CE974EC41CF44E3500F6F35B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE974EC21CF44E3500F6F35B /* Main.storyboard */; };
 		CE974EC61CF44E3500F6F35B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE974EC51CF44E3500F6F35B /* Assets.xcassets */; };
 		CE974EC91CF44E3500F6F35B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE974EC71CF44E3500F6F35B /* LaunchScreen.storyboard */; };
-		CE974ED41CF44F0E00F6F35B /* cross.png in Resources */ = {isa = PBXBuildFile; fileRef = CE974ED11CF44F0E00F6F35B /* cross.png */; };
-		CE974ED51CF44F0E00F6F35B /* nought.png in Resources */ = {isa = PBXBuildFile; fileRef = CE974ED21CF44F0E00F6F35B /* nought.png */; };
 		CE974ED71CF4569E00F6F35B /* board.png in Resources */ = {isa = PBXBuildFile; fileRef = CE974ED61CF4569E00F6F35B /* board.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A4D043621D00A9CB00DF072B /* cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cross.png; sourceTree = "<group>"; };
+		A4D043631D00A9CB00DF072B /* nought.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nought.png; sourceTree = "<group>"; };
 		CE974EBB1CF44E3500F6F35B /* Tic Tac Toe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tic Tac Toe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE974EBE1CF44E3500F6F35B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE974EC01CF44E3500F6F35B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -25,8 +27,6 @@
 		CE974EC51CF44E3500F6F35B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE974EC81CF44E3500F6F35B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE974ECA1CF44E3500F6F35B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CE974ED11CF44F0E00F6F35B /* cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cross.png; sourceTree = "<group>"; };
-		CE974ED21CF44F0E00F6F35B /* nought.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nought.png; sourceTree = "<group>"; };
 		CE974ED61CF4569E00F6F35B /* board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = board.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -63,8 +63,8 @@
 				CE974EBE1CF44E3500F6F35B /* AppDelegate.swift */,
 				CE974EC01CF44E3500F6F35B /* ViewController.swift */,
 				CE974ED61CF4569E00F6F35B /* board.png */,
-				CE974ED11CF44F0E00F6F35B /* cross.png */,
-				CE974ED21CF44F0E00F6F35B /* nought.png */,
+				A4D043621D00A9CB00DF072B /* cross.png */,
+				A4D043631D00A9CB00DF072B /* nought.png */,
 				CE974EC21CF44E3500F6F35B /* Main.storyboard */,
 				CE974EC51CF44E3500F6F35B /* Assets.xcassets */,
 				CE974EC71CF44E3500F6F35B /* LaunchScreen.storyboard */,
@@ -131,8 +131,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE974ED41CF44F0E00F6F35B /* cross.png in Resources */,
-				CE974ED51CF44F0E00F6F35B /* nought.png in Resources */,
+				A4D043641D00A9CB00DF072B /* cross.png in Resources */,
+				A4D043651D00A9CB00DF072B /* nought.png in Resources */,
 				CE974ED71CF4569E00F6F35B /* board.png in Resources */,
 				CE974EC91CF44E3500F6F35B /* LaunchScreen.storyboard in Resources */,
 				CE974EC61CF44E3500F6F35B /* Assets.xcassets in Resources */,
@@ -298,6 +298,7 @@
 				CE974ECF1CF44E3500F6F35B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
