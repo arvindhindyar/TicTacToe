@@ -15,8 +15,26 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        let swipeRight = UISwipeGestureRecognizer(target: self, action: #selector(self.swiped(_:)))
+        swipeRight.direction = UISwipeGestureRecognizerDirection.Right
+        self.view.addGestureRecognizer(swipeRight)
+        
+        
     }
-
+    func swiped(gesture:UIGestureRecognizer){
+        if let swipeGesture = gesture as? UISwipeGestureRecognizer{
+            if swipeGesture.direction == .Right{
+                
+            }else if swipeGesture.direction == .Up{
+            
+            }
+            
+        }
+    }
+    
+    
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -33,7 +51,7 @@ class ViewController: UIViewController {
             }catch{
             print("Error!")
             }
-        print("Device was Shaken!")
+//        print("Device was Shaken!")
         }
     }
 }
