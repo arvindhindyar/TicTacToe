@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -148,6 +148,16 @@
                                     <action selector="playAgainPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KiX-Q1-2zv"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Vivan's" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c5f-dD-n5u">
+                                <rect key="frame" x="7" y="20" width="55" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="55" id="ekA-wE-Gpt"/>
+                                    <constraint firstAttribute="height" constant="21" id="mdH-Xz-g8z"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.23259058594703674" green="0.95971876382827759" blue="0.86946219205856323" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -159,6 +169,7 @@
                             <constraint firstItem="TtW-ZC-Nsc" firstAttribute="leading" secondItem="c3T-Ne-jwT" secondAttribute="trailing" constant="18" id="9Qc-0G-Kdb"/>
                             <constraint firstItem="bWc-Uu-DRC" firstAttribute="leading" secondItem="9jE-UV-vZY" secondAttribute="trailing" constant="19" id="CdB-oI-rIh"/>
                             <constraint firstItem="Tr2-xQ-ZL4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ECX-Sb-XHb"/>
+                            <constraint firstItem="c5f-dD-n5u" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="F5U-kh-ezF"/>
                             <constraint firstItem="c3T-Ne-jwT" firstAttribute="leading" secondItem="EEH-Ck-G21" secondAttribute="trailing" constant="18" id="GDc-Vd-cpD"/>
                             <constraint firstItem="TP2-ae-tpx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="LnA-kT-qQI"/>
                             <constraint firstItem="NR9-CS-Tnw" firstAttribute="leading" secondItem="wMY-zG-0Cz" secondAttribute="trailing" constant="20" id="MGz-7Q-TCg"/>
@@ -175,6 +186,8 @@
                             <constraint firstItem="NSO-xc-yWk" firstAttribute="top" secondItem="TtW-ZC-Nsc" secondAttribute="bottom" constant="25" id="pSL-D4-2yG"/>
                             <constraint firstItem="NR9-CS-Tnw" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="7.5" id="rmW-Yu-tKV"/>
                             <constraint firstItem="NR9-CS-Tnw" firstAttribute="leading" secondItem="wMY-zG-0Cz" secondAttribute="trailing" constant="20" id="tKO-zK-iDL"/>
+                            <constraint firstItem="c5f-dD-n5u" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="uLf-NU-dnC"/>
+                            <constraint firstItem="c5f-dD-n5u" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-13" id="uSE-x9-S8i"/>
                             <constraint firstItem="wMY-zG-0Cz" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="5.5" id="yoq-VD-Fmm"/>
                         </constraints>
                     </view>
